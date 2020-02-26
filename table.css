@@ -1,0 +1,30 @@
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#tabelaRemover input{
+  color:navy;
+  width:100%;
+}
+#tabelaEditar input{
+  color:navy;
+  width:100%;
+}
